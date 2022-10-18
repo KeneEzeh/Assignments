@@ -1,0 +1,192 @@
+@import url(https://fonts.googleapis.com/css?family=Lexend+Deca:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Big+Shoulders+Display:100,200,300,regular,500,600,700,800,900);
+@media screen and (max-width:900px) {
+    body{
+        padding:0 80px ;
+        display: flex;
+        margin: auto;
+
+    }
+    main{
+        flex-direction: column;
+        padding: 0px 300px;
+        
+    }
+    .container{
+        flex-direction: column;
+    }
+    footer{
+        background-color: black;
+    }
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    padding: 100px 80px;
+    height: 100vh;
+    width: 100%;
+}
+
+main{
+    width: 100%;
+    background-color: hsl(0, 0%,95%);
+    margin: auto 10px;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 100px 200px;
+    
+    
+}
+main div{
+   
+    background-color:hsl(0, 0%,95%);
+
+    
+}
+.container{
+    display: flex;
+    border: 20px;
+    
+}
+
+
+.box1{
+    background-color:hsl(31, 77%, 52%);
+    padding: 2em;
+    height: inherit;
+    width: 150%;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-right: 0px;
+    text-align: left;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.box1 h1{
+    font-family:Big Shoulders Display;
+    font-weight: 700;
+    padding:20px 0px 10px 0px;
+    text-align: left;
+    color: hsl(0, 0%,95%);
+}
+.box1 p{
+    font-size: 15px;
+    font-weight: light;
+    font-family: Lexend Deca;
+}
+.box2{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+    height: inherit;
+    width: 150%;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.box2 h1{
+    font-family:Big Shoulders Display;
+    font-weight: 700;
+    padding:20px 0px 10px 0px;
+    color: hsl(0, 0%,95%);
+}
+.box2 p{
+    font-size:15px ;
+    font-weight: light;
+    font-family: Lexend Deca;
+
+}
+
+.box3{
+    background-color: hsl(179, 100%, 13%);
+    padding:2em ;
+    height: inherit;
+    width: 150%;
+    color: hsla(0, 0%, 100%, 0.75);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.box3 h1{
+    font-family:Big Shoulders Display;
+    font-weight: 700;
+    padding:20px 0px 10px 0px;
+    color: hsl(0, 0%,95%);
+}
+.box3 p{
+    font-size: 15px;
+    font-weight: light;
+    font-family: Lexend Deca ;
+}
+
+.btn1{
+    font-family: lexend deca;
+    padding: 8px;
+    border-radius: 50px;
+    border: none;
+    color: #e28525;
+    background-color: hsl(0, 0%,95%);
+    width: 60%;
+    margin-top: 40px;
+}
+.btn1:hover{
+    cursor: pointer;
+    transition-delay: 0.1s;
+    background-color: #e28525;
+    color: #f2f2f2;
+    border: solid 2px;
+    border-color: #f2f2f2;
+}
+.btn2{
+    font-family: lexend deca;
+    padding: 8px;
+    border-radius: 50px;
+    border: none;
+    color: #016972;
+    background-color: hsl(0, 0%,95%);
+    width: 60%;  
+    margin-top: 60px;
+}
+
+.btn2:hover{
+    cursor: pointer;
+    transition-delay: 0.1s;
+    background-color: #016972;
+    color: #f2f2f2;
+    border: solid 2px;
+    border-color: #f2f2f2;
+}
+
+.btn3{
+    font-family: lexend deca;
+    padding: 8px;
+    border-radius: 50px;
+    border: none;
+    color: #00403f;
+    background-color: hsl(0, 0%,95%);
+    width: 60%;
+    margin-top: 40px;
+}
+.btn3:hover{
+    cursor: pointer;
+    transition-delay: 0.1s;
+    background-color: #00403f;
+    color: #f2f2f2;
+    border: solid 2px;
+    border-color: #f2f2f2;
+}
+header{
+    background-color: rgb(8, 16, 22);
+    place-items: bottom;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto; 
+    color: #f2f2f2; 
+    position: fixed;  
+}
+header a{
+    font-style: italic;
+    color: #f2f2f2;
+
+}
