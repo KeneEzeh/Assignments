@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(212, 165, 165);
+    width: 100%;
+    display: flex;
+    place-items: center;
+    height: 100vh;
+
+}
+
+.reg{
+    width: 50%;
+    background-color: bisque;
+    margin:auto;
+    width: 50%;
+    border-radius: 50px;
+}
+
+.regs{
+    background-color: blue;
+    padding: 50px ;
+}
+
+.log{
+    padding:100px 10%;
+}
+.log h3{
+    padding: 10px;
+}
+button{
+    padding: 8px 50px;
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(216, 185, 185);
+    
+}
+
+button a{
+    color: black;
+    font-size: large;
+    text-decoration: none;
+}

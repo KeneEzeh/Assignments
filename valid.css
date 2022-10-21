@@ -62,13 +62,13 @@ body{
 
 .wrapping-input-name{
     box-shadow:-2px -2px 5px rgb(104,2,2);
-    border-radius:50px;
+    border-radius:10px;
     transition: box-shadow 1500ms ease-in-out;
     text-align: left;
      }
 .wrapping-input-password{
     box-shadow:-2px -2px 5px rgb(8,166,187);
-    border-radius:50px;
+    border-radius:10px;
     transition: box-shadow1500s ease-in-out;
     text-align: left;
      }

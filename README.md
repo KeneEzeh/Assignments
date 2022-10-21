@@ -1,7 +1,7 @@
 
 # Project Title
 
-A brief description of what this project does and who it's for
+This are the Zuri tasks for week 3 
 
 This is a basic Web design achieved with the use of HTML and CSS.
 ## 🚀 About Me

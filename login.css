@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: antiquewhite;
+    width: 100%;
+    place-items: center;
+    height: 100vh;
+    padding: 70px 0;
+
+
+}
+
+main{
+    background-color: rgb(110, 150, 150);
+    margin: auto;
+    width: 50%;
+    border-radius: 20px;
+}
+.auth{
+    text-align: center;
+    margin: auto;
+}
+
+.auth p{
+    padding: 10px;
+    text-align: center;
+}
+
+.body h1{
+    padding: 10px;
+    text-align: center;
+}
+.body h2{
+    padding: 20px;
+    text-align: center;
+}
+
+button{
+    padding: 10px 40px;
+    background-color: rgb(238, 187, 121);
+    border-radius: 10px;
+}
+button:hover{
+    color: antiquewhite;
+    background-color: black;
+}
+label{
+    text-align: left;
+    
+}
+
+input{
+    padding: 10px;
+    border-radius: 10px;
+}

@@ -6,29 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
 </head>
-<link rel="stylesheet" href="valid.css">
+<link rel="stylesheet" href="login.css">
 <body>
    
         <main>
-            <div class="port">
+            <div class="body">
                 <h1>Welcome!!!</h1>
-                <p>Please Login</p>
-                <p>Don't have an account yet</p>
-               <a href="reg.html">Register </a>
-               <p style="font-style: italics;">Forgot password?</p> 
+                <h2>Please Login </h2>
+                
             </div>
 
             <div class="auth">
                 <p>
-                    <h2>Please put in your details</h2>
-                 
-                 <label for="email">Email</label>
-                 <input class="wrapping-input-name" type="text" >
+                    <h3>Please put in your details</h3><br>
+                 <div class="int">
+                 <label for="email">Email</label><br>
+                 <input type="email" >
                  </p>
                  <label for="password">Password</label>
                  <form action="My supposed server">
-                 <input class="wrapping-input-password" type="text" pattern=".{6,}" title="Must contain six or more characters" position="relative" required><br><br>
-                 <button style="border-radius:30%; font-color: rgba(177, 112, 221, 0.247);" type="submit">Login</button>
+                 <input type="password" pattern=".{6,}" title="Must contain six or more characters" position="relative" required><br><br>
+                 <button type="submit">Login</button>
+                 </form>
+                 </div>
+                 <p>Don't have an account yet <br>
+                    <a href="reg.html">Register </a>
+                 </p>
+                    <p>Forgot password?</p> 
             </div>
      
         </main>

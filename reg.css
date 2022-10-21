@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(164, 188, 197);
+}
+
+fieldset{
+    display: flex;
+    background-color: rgb(77, 165, 42);
+}
+
+label{
+    font-family: lexend deca;
+    font-weight: bolder;
+}
+input{
+    padding: 5px;
+    font-size: larger;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+}
+#gender{
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+#btn{
+    padding: 5px 40px;
+    background-color: rgb(30, 42, 43);
+    color: rgb(24, 240, 186);
+}
+
+#btn:hover{
+    color: black;
+    background-color: antiquewhite;
+}
+.login{
+    font-family: lexend deca;
+    margin: auto;
+    font-size: 30px;
+}
